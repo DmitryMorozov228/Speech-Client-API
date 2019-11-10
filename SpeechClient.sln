@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechClient", "Src\SpeechClient.csproj", "{EC436EC0-DB8F-4353-B22B-8F81C35655F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{72744EE0-C7EF-424B-91C5-C11254C79CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeechClientConsoleApp", "Sample\SpeechClientConsoleApp\SpeechClientConsoleApp.csproj", "{371E28CA-B9E1-4157-86DB-2D38D56AD042}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|ARM.Build.0 = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|x64.Build.0 = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Debug|x86.Build.0 = Debug|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|ARM.Build.0 = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|x64.ActiveCfg = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|x64.Build.0 = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|x86.ActiveCfg = Release|Any CPU
+		{EC436EC0-DB8F-4353-B22B-8F81C35655F5}.Release|x86.Build.0 = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|ARM.Build.0 = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|x64.Build.0 = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Debug|x86.Build.0 = Debug|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|ARM.ActiveCfg = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|ARM.Build.0 = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|x64.ActiveCfg = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|x64.Build.0 = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|x86.ActiveCfg = Release|Any CPU
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{371E28CA-B9E1-4157-86DB-2D38D56AD042} = {72744EE0-C7EF-424B-91C5-C11254C79CCB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E93B967-5E57-4003-9C53-F94492D5F0E5}
+	EndGlobalSection
+EndGlobal
